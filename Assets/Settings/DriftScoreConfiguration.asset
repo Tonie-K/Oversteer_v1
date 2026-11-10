@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a249ad5a675447043bfcf0b88be4fba1, type: 3}
+  m_Name: DriftScoreConfiguration
+  m_EditorClassIdentifier: Assembly-CSharp::DriftScoreConfiguration
+  minimumSpeed: 8
+  minimumDriftAngle: 12
+  idealDriftAngle: 30
+  minimumDriftDuration: 0.5
+  basePointsPerSecond: 100
+  maximumPointsPerSecond: 900
+  maximumPointsPerDrift: 5000
+  minimumAngleMultiplier: 0.35
+  maximumAngleMultiplier: 1.5
+  angleTolerance: 35
+  speedForMaximumMultiplier: 32
+  minimumSpeedMultiplier: 0.5
+  maximumSpeedMultiplier: 1.35
+  durationForMaximumMultiplier: 6
+  maximumDurationMultiplier: 2
+  proximityBonusStartDistance: 3
+  proximityBonusFullDistance: 0.8
+  maximumProximityBonus: 0.5
+  comboWindow: 3
+  comboMultiplierPerLink: 0.2
+  maximumComboMultiplier: 2

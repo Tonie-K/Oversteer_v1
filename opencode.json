@@ -1,0 +1,30 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+        "blender": {
+            "type": "local",
+            "command": [
+                "C:\\Users\\Lenovo\\.local\\bin\\uvx.exe",
+                "mcp-for-blender"
+            ],
+            "enabled": true,
+            "environment": {
+                "BLENDER_HOST": "localhost",
+                "BLENDER_PORT": "9876"
+            }
+        },
+        "servers": {
+            "unityMCP": {
+                "type": "local",
+                "command": [
+                    "C:\\Users\\Lenovo\\.local\\bin\\uvx.exe",
+                    "--from",
+                    "mcpforunityserver==10.3.0",
+                    "mcp-for-unity",
+                    "--transport",
+                    "stdio"
+                ]
+            }
+        }
+    }
+}
